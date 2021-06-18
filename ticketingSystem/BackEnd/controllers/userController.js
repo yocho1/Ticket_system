@@ -120,7 +120,7 @@ module.exports.loginUser = async (req,res) =>{
                             type: user.type, 
                             state: user.state, 
                             username: user.username, 
-                            fname: user.fname, 
+                            fname: user.fname,
                             lname: user.lname,
                             isAuth: true
                         });
